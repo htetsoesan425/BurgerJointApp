@@ -171,6 +171,7 @@ class GameActivity : AppCompatActivity() {
                     ivGameBurger.x = motionEvent.rawX - xPositionDiff
                     ivGameBurger.y = motionEvent.rawY - yPositionDiff
                 }
+
                 MotionEvent.ACTION_UP -> {
                     springAnimationX.start()
                     springAnimationY.start()
