@@ -7,12 +7,12 @@ apply plugin: 'kotlin-android-extensions'
 
 android {
     namespace 'com.padc.ftc.hss.burgerjointapp'
-    compileSdk 33
+    compileSdk 29
 
     defaultConfig {
         applicationId "com.padc.ftc.hss.burgerjointapp"
         minSdk 21
-        targetSdk 33
+        targetSdk 29
         versionCode 1
         versionName "1.0"
 

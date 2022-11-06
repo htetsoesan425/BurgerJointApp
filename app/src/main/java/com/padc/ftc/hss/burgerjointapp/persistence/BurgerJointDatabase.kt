@@ -15,6 +15,7 @@ import com.padc.ftc.hss.burgerjointapp.persistence.daos.BurgerDao
     exportSchema = false
 )
 abstract class BurgerJointDatabase : RoomDatabase() {
+
     abstract fun getBurgerDao() : BurgerDao
 
     companion object {
